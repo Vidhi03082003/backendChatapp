@@ -21,7 +21,7 @@ app.use("/api/messages",messageRoutes)
 app.use("/api/users",userRoutes)
 
 app.get('/', (req, res) => {
-    res.redirect('/api/auth/login');
+    res.send("hiii");
   });
   
 
